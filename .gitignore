@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and large microdata files
+Cross_Section/
+*.dta
+*.sav
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Python cache & checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+scratch/
+
+# OS metadata
+.DS_Store
+Thumbs.db
